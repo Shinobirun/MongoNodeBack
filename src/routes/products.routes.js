@@ -3,6 +3,7 @@ import {createProducts, getProducts, getProductById, updateProductById, deletePr
 
 const router = Router()
 
+import * as productsCrtl from '../controllers/products.controller'
 
 router.post('/', createProducts)
 router.get('/', getProducts)
